@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>IDEABOX Elegant Forms</title>
+
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/breakingNews.css"/>
+
+<script src="js/jQuery.js"></script>
+<script src="js/breakingNews.js"></script>
+<script src="nwes.js"></script>
+</head>
+
+<!--style>
+	body{padding:0; margin:0; font-family:'PT Sans'; font-size:16px; background:url(trash/pattern.png);}
+	header{width:100%; padding:50px 0; text-align:center; color:#FFF;}
+	header h1{ font-size:48px;}
+	header a{color:#FFF; text-decoration:none; display:inline-block; padding:5px 10px; border:solid 1px #FFF;}
+	header a:hover{border-color:#c30;}
+	header a.active{background:#FFF; color:#333;}
+</style-->
+
+<style>
+
+
+
+</style>
+<body>
+<header>
+	<h1>Breaking News Ticker</h1>
+    <h3>Jquery Plugin</h3>
+    <a class="active" href="index.html">HTML Data Example</a>
+    <a href="rss.html">RSS Data Example</a>
+</header>
+
+
+<div style="width:100%; max-width:960px; margin:0 auto; padding:0 20px 50px 20px; box-sizing:border-box;">
+
+	
+    
+    
+    <!-- -->
+    <p>&nbsp;</p>
+    
+    <div class="breakingNews" id="bn4">
+    	<div class="bn-title"><h2>Testimonials</h2><span></span></div>
+        <ul>
+        	<li class="active"><a href="#"><span>Albert Einstein</span> - Lorem Ipsum is simply dummy text of the printing and typesetting industry</a></li>
+            <li><a href="#"><span>Nelson Mandela</span> - Lorem Ipsum has been the industry's standard dummy text ever since the</a></li>
+            <li><a href="#"><span>Mohandas Karamçand Gandi</span> - There are many variations of passages of Lorem Ipsum available</a></li>
+            <li><a href="#"><span>Atatürk</span> - Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</a></li>
+            <li><a href="#"><span>Napolyon</span> - The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested</a></li>
+        </ul>
+        <div class="bn-navi">
+        	<span></span>
+            <span></span>
+        </div>
+    </div>
+    
+    
+    
+    
+
+</div>
+<script>
+	$(window).load(function(e) {
+        
+		
+		/*$("#bn4").breakingNews({
+			effect		:"slide-v",
+			autoplay	:true,
+			timer		:3000,
+			color		:'green',
+			border		:true
+		});
+		*/
+    });
+
+    let n = new news("#bn4");
+ </script>
+</body>
+</html>
